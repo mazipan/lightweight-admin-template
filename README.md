@@ -3,6 +3,7 @@
 
 ## About
 This is admin template that crafted with simplicity.
+https://mazipan.github.io/lightweight-admin-template/
 
 
 ## License
