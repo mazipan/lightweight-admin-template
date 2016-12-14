@@ -1,0 +1,52 @@
+{
+  "name": "lightweight-admin-template",
+  "description": "Lightweight admin template for your web application",
+  "version": "0.0.1",
+  "keywords": [
+    "css",
+    "bem",
+    "bem css",
+    "sass",
+    "template",
+    "admin template"
+  ],
+  "homepage": "https://mazipan.github.io/lightweight-admin-template",
+  "author": "Irfan Maulana (https://github.com/mazipan/)",
+  "scripts": {
+    "update-shrinkwrap": "npm shrinkwrap --dev && shx mv ./npm-shrinkwrap.json ./grunt/npm-shrinkwrap.json",
+    "build": "grunt --verbose",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mazipan/lightweight-admin-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mazipan/lightweight-admin-template/issues"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "license": "MIT",
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.5.1",
+    "grunt": "^1.0.1",
+    "grunt-banner": "^0.6.0",
+    "grunt-cli": "^1.1.0",
+    "grunt-concurrent": "^2.2.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.0",
+    "grunt-contrib-csslint": "^2.0.0",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-postcss": "^0.8.0",
+    "grunt-sass": "^1.2.1",
+    "jsdom": "^9.8.3",
+    "mocha": "^2.2.5",
+    "should": "^7.0.2"
+  }
+}

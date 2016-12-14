@@ -1,0 +1,141 @@
+@mixin clearfix()
+{
+    *zoom: 1;
+    &:before,
+    &:after
+    {
+        display: table;
+        content: ' ';
+    }
+    &:after
+    {
+        clear: both;
+    }
+}
+
+@mixin row()
+{    
+    @include clearfix(); 
+    margin: 0 auto;
+    max-width: 92.308em;
+}
+
+
+/*
+-- SITE BLOCK --
+* every block should in seperate file 
+* for demo I combine into one file
+*/
+.site
+{
+    margin: 0;
+
+    &__main
+    {
+        margin-top: 60px;
+        @include clearfix(); 
+    }
+}
+
+/*
+-- MAIN BLOCK --
+*/
+.main
+{
+    &__jumbotron{
+        width: 100%;
+        height: 500px;
+
+        h1{
+            color: #fff;
+            font-style: italic;  
+            font-size: 5rem;          
+        }
+        h2{
+            color: #fff;
+            font-style: italic;
+            font-weight: normal;
+        }
+
+        &-wrapper{
+            margin: 0 auto;    
+            padding-top: 10em;
+            padding-left: 3em;
+        }
+    }
+}
+
+/*
+-- HEADER BLOCK --
+*/
+
+.header
+{
+
+    width: 100%;
+    height: 60px;
+    background: rgba(255,255,255,.95294);
+
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__brand
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: .2em;
+
+        img
+        {
+            height: 45px;
+        }
+    }
+    &__title{
+        font-style: italic;
+        font-size: 1.8rem;
+        font-weight: 500;
+        margin-left: .5em;
+    }
+}
+
+
+/*
+-- FOOTER BLOCK --
+*/
+.footer
+{
+    margin: 0 auto;
+    padding: 20px 0;
+    background: #282828;
+    color: #fff;
+
+    &__wrapper
+    {
+        text-align: center;
+    }
+    &__text
+    {
+        font-size: .9rem;
+    }
+    &__list
+    {
+        display: block;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    &__icon
+    {
+        display: inline-block;
+        margin: 0 5px;
+        font-size: 1.6rem;
+
+        i
+        {
+            color: #fff;
+        }
+    }
+}

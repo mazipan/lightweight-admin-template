@@ -1,0 +1,113 @@
+/*
+-- SITE BLOCK --
+* every block should in seperate file 
+* for demo I combine into one file
+*/
+/* line 29, D:/Github/lightweight-admin-template/sass/lightweight-admin-template.scss */
+.site {
+  margin: 0; }
+  /* line 33, D:/Github/lightweight-admin-template/sass/lightweight-admin-template.scss */
+  .site__main {
+    margin-top: 60px;
+    *zoom: 1; }
+    /* line 4, D:/Github/lightweight-admin-template/sass/lightweight-admin-template.scss */
+    .site__main:before, .site__main:after {
+      display: table;
+      content: ' '; }
+    /* line 10, D:/Github/lightweight-admin-template/sass/lightweight-admin-template.scss */
+    .site__main:after {
+      clear: both; }
+
+/*
+-- MAIN BLOCK --
+*/
+/* line 45, D:/Github/lightweight-admin-template/sass/lightweight-admin-template.scss */
+.main__jumbotron {
+  width: 100%;
+  height: 500px; }
+  /* line 49, D:/Github/lightweight-admin-template/sass/lightweight-admin-template.scss */
+  .main__jumbotron h1 {
+    color: #fff;
+    font-style: italic;
+    font-size: 5rem; }
+  /* line 54, D:/Github/lightweight-admin-template/sass/lightweight-admin-template.scss */
+  .main__jumbotron h2 {
+    color: #fff;
+    font-style: italic;
+    font-weight: normal; }
+  /* line 60, D:/Github/lightweight-admin-template/sass/lightweight-admin-template.scss */
+  .main__jumbotron-wrapper {
+    margin: 0 auto;
+    padding-top: 10em;
+    padding-left: 3em; }
+
+/*
+-- HEADER BLOCK --
+*/
+/* line 72, D:/Github/lightweight-admin-template/sass/lightweight-admin-template.scss */
+.header {
+  width: 100%;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.95294); }
+  /* line 79, D:/Github/lightweight-admin-template/sass/lightweight-admin-template.scss */
+  .header__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  /* line 84, D:/Github/lightweight-admin-template/sass/lightweight-admin-template.scss */
+  .header__brand {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: .2em; }
+    /* line 91, D:/Github/lightweight-admin-template/sass/lightweight-admin-template.scss */
+    .header__brand img {
+      height: 45px; }
+  /* line 96, D:/Github/lightweight-admin-template/sass/lightweight-admin-template.scss */
+  .header__title {
+    font-style: italic;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-left: .5em; }
+
+/*
+-- FOOTER BLOCK --
+*/
+/* line 108, D:/Github/lightweight-admin-template/sass/lightweight-admin-template.scss */
+.footer {
+  margin: 0 auto;
+  padding: 20px 0;
+  background: #282828;
+  color: #fff; }
+  /* line 115, D:/Github/lightweight-admin-template/sass/lightweight-admin-template.scss */
+  .footer__wrapper {
+    text-align: center; }
+  /* line 119, D:/Github/lightweight-admin-template/sass/lightweight-admin-template.scss */
+  .footer__text {
+    font-size: .9rem; }
+  /* line 123, D:/Github/lightweight-admin-template/sass/lightweight-admin-template.scss */
+  .footer__list {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+  /* line 130, D:/Github/lightweight-admin-template/sass/lightweight-admin-template.scss */
+  .footer__icon {
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 1.6rem; }
+    /* line 136, D:/Github/lightweight-admin-template/sass/lightweight-admin-template.scss */
+    .footer__icon i {
+      color: #fff; }
