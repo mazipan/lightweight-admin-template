@@ -1,24 +1,9 @@
-@mixin clearfix()
-{
-    *zoom: 1;
-    &:before,
-    &:after
-    {
-        display: table;
-        content: ' ';
-    }
-    &:after
-    {
-        clear: both;
-    }
-}
-
-@mixin row()
-{    
-    @include clearfix(); 
-    margin: 0 auto;
-    max-width: 92.308em;
-}
+/*
+* REQUIRE AWESOME-BEMCSS FRAMEWORK, BECAUSE WE USE ITS MIXIN
+* THAT FRAMEWORK HAS INCLUDE normalize.css
+*
+*/
+@import "../node_modules/awesome-bemcss/src/_awesome-bemcss.scss";
 
 
 /*
