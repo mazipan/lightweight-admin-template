@@ -1,0 +1,36 @@
+
+/*
+-- FOOTER BLOCK --
+*/
+.footer
+{
+    &__wrapper
+    {
+        padding: 1em;
+        margin-top: 70px;
+    }
+    &__text
+    {
+        font-size: 1.3rem;
+        color: $white;
+        padding: .3em;
+    }
+    &__list
+    {
+        display: block;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    &__icon
+    {
+        display: inline-block;
+        margin: 0 5px;
+        font-size: 1.6rem;
+
+        i
+        {
+            color: #fff;
+        }
+    }
+}

@@ -3,8 +3,9 @@
 
 ## About
 This is admin template that crafted with simplicity.
-https://mazipan.github.io/lightweight-admin-template/
+Very light, just 7KB css (minified) - exclude awesome-bemcss and normalize. 2KB js (minified) - exclude jquery and awesome-bemcss.
 
+See demo [https://mazipan.github.io/lightweight-admin-template/](here).
 
 ## License
 [https://github.com/mazipan/lightweight-admin-template/blob/master/LICENSE](MIT License)

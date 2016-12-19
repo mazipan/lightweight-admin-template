@@ -31,7 +31,7 @@
   "dependencies": {},
   "devDependencies": {
     "autoprefixer": "^6.5.1",
-    "awesome-bemcss": "0.0.7",
+    "awesome-bemcss": "0.0.8",
     "grunt": "^1.0.1",
     "grunt-banner": "^0.6.0",
     "grunt-cli": "^1.1.0",

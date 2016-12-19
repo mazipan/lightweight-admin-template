@@ -1,0 +1,125 @@
+
+/*
+-- NAV BLOCK --
+*/
+
+
+$breakPointTablet   : 640 !default;
+.nav
+{
+    position: fixed;
+    top: 60px;
+    bottom: 0;
+    z-index: 2;
+    overflow: hidden;
+    overflow-y: auto;
+    max-height: 100%;
+    width: 250px;
+    padding: 10px 0;
+    background-color: darken($blackLighter, 5%);
+
+    // use by mobile
+    @include translate3d(-250px, 0, 0);
+    -webkit-transition: -webkit-transform 0.4s;
+    transition: transform 0.4s;
+    -webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+    transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+
+    @media only screen and (min-width: #{$breakPointTablet}px) {
+        @include translate3d(0, 0, 0);
+    }
+
+    &--opened
+    {
+        @include translate3d(0, 0, 0);
+    }
+
+    //override scroll
+    &::-webkit-scrollbar-track
+    {
+        background-color: transparent;
+    }
+
+    &::-webkit-scrollbar
+    {
+        width: 8px;
+        background-color: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb
+    {
+        background-color: #b4b4b4;
+    }
+
+    &__wrapper
+    {
+        @extend %reset-list;
+
+        &--child{
+            display: none;
+            padding: 10px 0;
+            padding-left: 1.5em;
+            background-color: darken($blackLight, 5%);
+        }
+
+        &--is-open{
+            display: block;
+        }
+    }
+
+    &__icon{
+        width: 20px;
+    }
+    &__item
+    {
+
+        &--active{
+            & > a{
+                border-left: 3px solid #37a6c4;
+            }
+        }
+
+        & > a
+        {
+            position: relative;
+            display: block;
+            padding: 1em;
+            background-color: darken($blackLighter, 5%);
+            color: $white;
+            text-decoration: none;
+
+            &:hover, &:active, &:focus
+            {
+                text-decoration: none;
+            }
+        }
+
+        &--child{
+            & > a
+            {
+                position: relative;
+                display: block;
+                padding: 1em;
+                background-color: darken($blackLight, 5%);
+                color: $white;
+                text-decoration: none;
+
+                &:hover, &:active, &:focus
+                {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    &__arrow{
+        float: right;
+        padding: .2em 0;
+
+        @include transition(transform 0.3s);
+
+        &--active{
+            @include rotate(180deg);
+        }
+    }
+
+}

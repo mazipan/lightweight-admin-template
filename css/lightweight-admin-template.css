@@ -1,8 +1,14 @@
 /*
-* REQUIRE AWESOME-BEMCSS FRAMEWORK, BECAUSE WE USE ITS MIXIN
-* THAT FRAMEWORK HAS INCLUDE normalize.css
+* REQUIRE AWESOME-BEMCSS FRAMEWORK, BECAUSE WE USE MIXIN AND EXTEND FROM THAT
+* -- THAT FRAMEWORK HAS INCLUDE normalize.css --
 *
 */
+/* line 1, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/helpers/_list.scss */
+.account__menu-wrapper, .nav__wrapper {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
@@ -495,6 +501,19 @@ blockquote {
 textarea {
   resize: none; }
 
+/* line 5, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_components/_grids.scss */
+.content__wrapper {
+  *zoom: 1;
+  margin: 0 auto;
+  max-width: 92.308em; }
+  /* line 4, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/mixins/_clearfix.scss */
+  .content__wrapper:before, .content__wrapper:after {
+    display: table;
+    content: ' '; }
+  /* line 10, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/mixins/_clearfix.scss */
+  .content__wrapper:after {
+    clear: both; }
+
 /*
 border: 1px solid #00d1b2;
 border-right: 0;
@@ -529,16 +548,14 @@ top: 50%;
 
 /*
 -- SITE BLOCK --
-* every block should in seperate file 
-* for demo I combine into one file
 */
-/* line 14, D:/Github/lightweight-admin-template/sass/lightweight-admin-template.scss */
+/* line 12, D:/Github/lightweight-admin-template/sass/lightweight-admin-template.scss */
 .site {
   margin: 0; }
-  /* line 18, D:/Github/lightweight-admin-template/sass/lightweight-admin-template.scss */
+  /* line 16, D:/Github/lightweight-admin-template/sass/lightweight-admin-template.scss */
   .site__main {
-    margin-top: 60px;
-    *zoom: 1; }
+    *zoom: 1;
+    margin-top: 60px; }
     /* line 4, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/mixins/_clearfix.scss */
     .site__main:before, .site__main:after {
       display: table;
@@ -550,21 +567,11 @@ top: 50%;
 /*
 -- MAIN BLOCK --
 */
-/* line 30, D:/Github/lightweight-admin-template/sass/lightweight-admin-template.scss */
+/* line 7, D:/Github/lightweight-admin-template/sass/blocks/_main.scss */
 .main__jumbotron {
   width: 100%;
   height: 500px; }
-  /* line 34, D:/Github/lightweight-admin-template/sass/lightweight-admin-template.scss */
-  .main__jumbotron h1 {
-    color: #fff;
-    font-style: italic;
-    font-size: 5rem; }
-  /* line 39, D:/Github/lightweight-admin-template/sass/lightweight-admin-template.scss */
-  .main__jumbotron h2 {
-    color: #fff;
-    font-style: italic;
-    font-weight: normal; }
-  /* line 45, D:/Github/lightweight-admin-template/sass/lightweight-admin-template.scss */
+  /* line 12, D:/Github/lightweight-admin-template/sass/blocks/_main.scss */
   .main__jumbotron-wrapper {
     margin: 0 auto;
     padding-top: 10em;
@@ -573,70 +580,304 @@ top: 50%;
 /*
 -- HEADER BLOCK --
 */
-/* line 57, D:/Github/lightweight-admin-template/sass/lightweight-admin-template.scss */
+/* line 7, D:/Github/lightweight-admin-template/sass/blocks/_header.scss */
 .header {
+  position: fixed;
+  top: 0;
   width: 100%;
   height: 60px;
-  background: rgba(255, 255, 255, 0.95294); }
-  /* line 64, D:/Github/lightweight-admin-template/sass/lightweight-admin-template.scss */
+  background-color: #666666;
+  color: #ffffff; }
+  /* line 16, D:/Github/lightweight-admin-template/sass/blocks/_header.scss */
   .header__wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
-  /* line 69, D:/Github/lightweight-admin-template/sass/lightweight-admin-template.scss */
-  .header__brand {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin: .2em; }
-    /* line 76, D:/Github/lightweight-admin-template/sass/lightweight-admin-template.scss */
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 100%; }
+  /* line 24, D:/Github/lightweight-admin-template/sass/blocks/_header.scss */
+  .header__brand {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: .2em;
+    display: none; }
+    @media only screen and (min-width: 600px) {
+      /* line 24, D:/Github/lightweight-admin-template/sass/blocks/_header.scss */
+      .header__brand {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; } }
+    /* line 37, D:/Github/lightweight-admin-template/sass/blocks/_header.scss */
     .header__brand img {
       height: 45px; }
-  /* line 81, D:/Github/lightweight-admin-template/sass/lightweight-admin-template.scss */
+  /* line 42, D:/Github/lightweight-admin-template/sass/blocks/_header.scss */
   .header__title {
-    font-style: italic;
-    font-size: 1.8rem;
+    margin-left: .5em;
     font-weight: 500;
-    margin-left: .5em; }
+    font-size: 1.8rem; }
+  /* line 51, D:/Github/lightweight-admin-template/sass/blocks/_header.scss */
+  .header__nav--mobile {
+    display: block; }
+    @media only screen and (min-width: 600px) {
+      /* line 51, D:/Github/lightweight-admin-template/sass/blocks/_header.scss */
+      .header__nav--mobile {
+        display: none; } }
+  /* line 60, D:/Github/lightweight-admin-template/sass/blocks/_header.scss */
+  .header__nav-btn {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    position: relative;
+    margin: 1em;
+    width: 40px;
+    height: 30px;
+    cursor: pointer; }
+    /* line 71, D:/Github/lightweight-admin-template/sass/blocks/_header.scss */
+    .header__nav-btn span {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+      -webkit-transition: 0.25s ease-in-out;
+      transition: 0.25s ease-in-out;
+      position: absolute;
+      left: 0;
+      display: block;
+      width: 100%;
+      height: 3px;
+      background: #ffffff;
+      opacity: 1; }
+      /* line 84, D:/Github/lightweight-admin-template/sass/blocks/_header.scss */
+      .header__nav-btn span:nth-child(1) {
+        top: 0; }
+      /* line 88, D:/Github/lightweight-admin-template/sass/blocks/_header.scss */
+      .header__nav-btn span:nth-child(2), .header__nav-btn span:nth-child(3) {
+        top: 10px; }
+      /* line 93, D:/Github/lightweight-admin-template/sass/blocks/_header.scss */
+      .header__nav-btn span:nth-child(4) {
+        top: 20px; }
+    /* line 102, D:/Github/lightweight-admin-template/sass/blocks/_header.scss */
+    .header__nav-btn--close span:nth-child(1), .header__nav-btn--close span:nth-child(4) {
+      top: 10px;
+      left: 50%;
+      width: 0; }
+    /* line 108, D:/Github/lightweight-admin-template/sass/blocks/_header.scss */
+    .header__nav-btn--close span:nth-child(2) {
+      -webkit-transform: rotate(45deg);
+      transform: rotate(45deg); }
+    /* line 112, D:/Github/lightweight-admin-template/sass/blocks/_header.scss */
+    .header__nav-btn--close span:nth-child(3) {
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg); }
+
+/*
+-- ACCOUNT BLOCK --
+*/
+/* line 7, D:/Github/lightweight-admin-template/sass/blocks/_account.scss */
+.account {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 20px;
+  height: 100%;
+  width: 200px;
+  background-color: #333333;
+  display: none; }
+  @media only screen and (min-width: 600px) {
+    /* line 7, D:/Github/lightweight-admin-template/sass/blocks/_account.scss */
+    .account {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; } }
+  /* line 23, D:/Github/lightweight-admin-template/sass/blocks/_account.scss */
+  .account--has-login {
+    cursor: pointer; }
+  /* line 27, D:/Github/lightweight-admin-template/sass/blocks/_account.scss */
+  .account__img {
+    border-radius: 50%;
+    margin: -10px 0;
+    margin-right: 10px;
+    height: 28px; }
+  /* line 35, D:/Github/lightweight-admin-template/sass/blocks/_account.scss */
+  .account__arrow {
+    padding-left: 20px; }
+  /* line 40, D:/Github/lightweight-admin-template/sass/blocks/_account.scss */
+  .account__menu {
+    display: none;
+    position: absolute;
+    width: 200px;
+    top: 60px;
+    right: 0; }
+    /* line 52, D:/Github/lightweight-admin-template/sass/blocks/_account.scss */
+    .account__menu-item > a {
+      position: relative;
+      display: block;
+      padding: 1em 20px;
+      background-color: #333333;
+      color: #ffffff;
+      text-decoration: none; }
+      /* line 61, D:/Github/lightweight-admin-template/sass/blocks/_account.scss */
+      .account__menu-item > a:hover, .account__menu-item > a:active, .account__menu-item > a:focus {
+        text-decoration: none; }
+
+/*
+-- NAV BLOCK --
+*/
+/* line 8, D:/Github/lightweight-admin-template/sass/blocks/_nav.scss */
+.nav {
+  position: fixed;
+  top: 60px;
+  bottom: 0;
+  z-index: 2;
+  overflow: hidden;
+  overflow-y: auto;
+  max-height: 100%;
+  width: 250px;
+  padding: 10px 0;
+  background-color: #595959;
+  -webkit-transform: translate3d(-250px, 0, 0);
+  transform: translate3d(-250px, 0, 0);
+  -webkit-transition: -webkit-transform 0.4s;
+  transition: -webkit-transform 0.4s;
+  transition: transform 0.4s;
+  transition: transform 0.4s, -webkit-transform 0.4s;
+  -webkit-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+  transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1); }
+  @media only screen and (min-width: 600px) {
+    /* line 8, D:/Github/lightweight-admin-template/sass/blocks/_nav.scss */
+    .nav {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0); } }
+  /* line 32, D:/Github/lightweight-admin-template/sass/blocks/_nav.scss */
+  .nav--opened {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+  /* line 38, D:/Github/lightweight-admin-template/sass/blocks/_nav.scss */
+  .nav::-webkit-scrollbar-track {
+    background-color: transparent; }
+  /* line 43, D:/Github/lightweight-admin-template/sass/blocks/_nav.scss */
+  .nav::-webkit-scrollbar {
+    width: 8px;
+    background-color: transparent; }
+  /* line 49, D:/Github/lightweight-admin-template/sass/blocks/_nav.scss */
+  .nav::-webkit-scrollbar-thumb {
+    background-color: #b4b4b4; }
+  /* line 58, D:/Github/lightweight-admin-template/sass/blocks/_nav.scss */
+  .nav__wrapper--child {
+    display: none;
+    padding: 10px 0;
+    padding-left: 1.5em;
+    background-color: #404040; }
+  /* line 65, D:/Github/lightweight-admin-template/sass/blocks/_nav.scss */
+  .nav__wrapper--is-open {
+    display: block; }
+  /* line 70, D:/Github/lightweight-admin-template/sass/blocks/_nav.scss */
+  .nav__icon {
+    width: 20px; }
+  /* line 77, D:/Github/lightweight-admin-template/sass/blocks/_nav.scss */
+  .nav__item--active > a {
+    border-left: 3px solid #37a6c4; }
+  /* line 82, D:/Github/lightweight-admin-template/sass/blocks/_nav.scss */
+  .nav__item > a {
+    position: relative;
+    display: block;
+    padding: 1em;
+    background-color: #595959;
+    color: #ffffff;
+    text-decoration: none; }
+    /* line 91, D:/Github/lightweight-admin-template/sass/blocks/_nav.scss */
+    .nav__item > a:hover, .nav__item > a:active, .nav__item > a:focus {
+      text-decoration: none; }
+  /* line 98, D:/Github/lightweight-admin-template/sass/blocks/_nav.scss */
+  .nav__item--child > a {
+    position: relative;
+    display: block;
+    padding: 1em;
+    background-color: #404040;
+    color: #ffffff;
+    text-decoration: none; }
+    /* line 107, D:/Github/lightweight-admin-template/sass/blocks/_nav.scss */
+    .nav__item--child > a:hover, .nav__item--child > a:active, .nav__item--child > a:focus {
+      text-decoration: none; }
+  /* line 114, D:/Github/lightweight-admin-template/sass/blocks/_nav.scss */
+  .nav__arrow {
+    float: right;
+    padding: .2em 0;
+    -webkit-transition: transform 0.3s;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s; }
+    /* line 120, D:/Github/lightweight-admin-template/sass/blocks/_nav.scss */
+    .nav__arrow--active {
+      -webkit-transform: rotate(180deg);
+      transform: rotate(180deg); }
 
 /*
 -- FOOTER BLOCK --
 */
-/* line 93, D:/Github/lightweight-admin-template/sass/lightweight-admin-template.scss */
-.footer {
-  margin: 0 auto;
-  padding: 20px 0;
-  background: #282828;
-  color: #fff; }
-  /* line 100, D:/Github/lightweight-admin-template/sass/lightweight-admin-template.scss */
-  .footer__wrapper {
-    text-align: center; }
-  /* line 104, D:/Github/lightweight-admin-template/sass/lightweight-admin-template.scss */
-  .footer__text {
-    font-size: .9rem; }
-  /* line 108, D:/Github/lightweight-admin-template/sass/lightweight-admin-template.scss */
-  .footer__list {
-    display: block;
-    margin: 0;
-    padding: 0;
-    list-style: none; }
-  /* line 115, D:/Github/lightweight-admin-template/sass/lightweight-admin-template.scss */
-  .footer__icon {
-    display: inline-block;
-    margin: 0 5px;
-    font-size: 1.6rem; }
-    /* line 121, D:/Github/lightweight-admin-template/sass/lightweight-admin-template.scss */
-    .footer__icon i {
-      color: #fff; }
+/* line 7, D:/Github/lightweight-admin-template/sass/blocks/_footer.scss */
+.footer__wrapper {
+  padding: 1em;
+  margin-top: 70px; }
+
+/* line 12, D:/Github/lightweight-admin-template/sass/blocks/_footer.scss */
+.footer__text {
+  font-size: 1.3rem;
+  color: #ffffff;
+  padding: .3em; }
+
+/* line 18, D:/Github/lightweight-admin-template/sass/blocks/_footer.scss */
+.footer__list {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+/* line 25, D:/Github/lightweight-admin-template/sass/blocks/_footer.scss */
+.footer__icon {
+  display: inline-block;
+  margin: 0 5px;
+  font-size: 1.6rem; }
+  /* line 31, D:/Github/lightweight-admin-template/sass/blocks/_footer.scss */
+  .footer__icon i {
+    color: #fff; }
+
+/*
+-- CONTENT BLOCK --
+*/
+/* line 9, D:/Github/lightweight-admin-template/sass/blocks/_content.scss */
+.content {
+  background-color: #ffffff;
+  padding: 15px;
+  margin-top: -15px; }
+  @media only screen and (min-width: 600px) {
+    /* line 9, D:/Github/lightweight-admin-template/sass/blocks/_content.scss */
+    .content {
+      margin-left: 250px; } }
+  /* line 19, D:/Github/lightweight-admin-template/sass/blocks/_content.scss */
+  .content__wrapper {
+    padding: 10px 0; }
+
+/* line 34, D:/Github/lightweight-admin-template/sass/lightweight-admin-template.scss */
+.card__wrapper {
+  padding: 1em .5em; }
+
+/* line 37, D:/Github/lightweight-admin-template/sass/lightweight-admin-template.scss */
+.card__align {
+  text-align: center; }
+
+/* line 40, D:/Github/lightweight-admin-template/sass/lightweight-admin-template.scss */
+.card__big-text {
+  font-size: 10rem; }

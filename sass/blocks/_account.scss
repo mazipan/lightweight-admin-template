@@ -1,0 +1,68 @@
+
+/*
+-- ACCOUNT BLOCK --
+*/
+
+$breakPointTablet   : 640 !default;
+.account
+{
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 100%;
+    width: 200px;
+    background-color: $black;
+
+    //use by mobile
+    display: none;
+
+    @media only screen and (min-width: #{$breakPointTablet}px) {
+        display: flex;
+    }
+
+    &--has-login{        
+        cursor: pointer;
+    }
+
+    &__img
+    {
+        @include border-radius(50%);
+
+        margin: -10px 0;
+        margin-right: 10px;
+        height: 28px;
+    }
+    &__arrow
+    {
+        padding-left: 20px;
+    }
+
+    &__menu{
+        display: none;
+        position: absolute;
+        width: 200px;
+        top: 60px;
+        right: 0;
+
+        &-wrapper{            
+            @extend %reset-list;
+        }
+
+        &-item{
+            & > a
+            {
+                position: relative;
+                display: block;
+                padding: 1em 20px;
+                background-color: $black;
+                color: $white;
+                text-decoration: none;
+
+                &:hover, &:active, &:focus
+                {
+                    text-decoration: none;
+                }
+            }            
+        }
+    }
+}
