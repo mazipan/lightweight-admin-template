@@ -3,7 +3,7 @@
 
 ## About
 This is admin template that crafted with simplicity.<br/>
-Very light, just 7KB css (minified) - exclude awesome-bemcss and normalize. 2KB js (minified) - exclude jquery and awesome-bemcss.
+Very light, just 7KB css (minified) - exclude <a href="https://github.com/mazipan/awesome-bemcss">awesome-bemcss</a> and normalize. 2KB js (minified) - exclude jquery and <a href="https://github.com/mazipan/awesome-bemcss">awesome-bemcss</a>.
 
 See demo https://mazipan.github.io/lightweight-admin-template/
 
