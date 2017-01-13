@@ -1,9 +1,9 @@
 /*
-* REQUIRE AWESOME-BEMCSS FRAMEWORK, BECAUSE WE USE MIXIN AND EXTEND FROM THAT
+* REQUIRE BEM_KIT FRAMEWORK, BECAUSE WE USE MIXIN AND EXTEND FROM THAT
 * -- THAT FRAMEWORK HAS INCLUDE normalize.css --
 *
 */
-/* line 1, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/helpers/_list.scss */
+/* line 1, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/helpers/_list.scss */
 .account__menu-wrapper, .nav__wrapper {
   margin: 0;
   padding: 0;
@@ -18,7 +18,7 @@
  */
 /* Document
    ========================================================================== */
-/* line 13, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_normalize.scss */
+/* line 13, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_normalize.scss */
 html {
   font-family: sans-serif;
   /* 1 */
@@ -34,14 +34,14 @@ html {
 /**
  * Remove the margin in all browsers (opinionated).
  */
-/* line 27, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_normalize.scss */
+/* line 27, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_normalize.scss */
 body {
   margin: 0; }
 
 /**
  * Add the correct display in IE 9-.
  */
-/* line 35, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_normalize.scss */
+/* line 35, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_normalize.scss */
 article,
 aside,
 footer,
@@ -54,7 +54,7 @@ section {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-/* line 49, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_normalize.scss */
+/* line 49, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
@@ -65,7 +65,7 @@ h1 {
  * Add the correct display in IE 9-.
  * 1. Add the correct display in IE.
  */
-/* line 62, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_normalize.scss */
+/* line 62, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_normalize.scss */
 figcaption,
 figure,
 main {
@@ -75,7 +75,7 @@ main {
 /**
  * Add the correct margin in IE 8.
  */
-/* line 72, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_normalize.scss */
+/* line 72, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_normalize.scss */
 figure {
   margin: 1em 40px; }
 
@@ -83,7 +83,7 @@ figure {
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
-/* line 81, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_normalize.scss */
+/* line 81, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_normalize.scss */
 hr {
   box-sizing: content-box;
   /* 1 */
@@ -96,7 +96,7 @@ hr {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-/* line 92, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_normalize.scss */
+/* line 92, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_normalize.scss */
 pre {
   font-family: monospace, monospace;
   /* 1 */
@@ -109,7 +109,7 @@ pre {
  * 1. Remove the gray background on active links in IE 10.
  * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
  */
-/* line 105, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_normalize.scss */
+/* line 105, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_normalize.scss */
 a {
   background-color: transparent;
   /* 1 */
@@ -120,7 +120,7 @@ a {
  * Remove the outline on focused links when they are also active or hovered
  * in all browsers (opinionated).
  */
-/* line 115, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_normalize.scss */
+/* line 115, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_normalize.scss */
 a:active,
 a:hover {
   outline-width: 0; }
@@ -129,7 +129,7 @@ a:hover {
  * 1. Remove the bottom border in Firefox 39-.
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
-/* line 125, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_normalize.scss */
+/* line 125, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_normalize.scss */
 abbr[title] {
   border-bottom: none;
   /* 1 */
@@ -141,7 +141,7 @@ abbr[title] {
 /**
  * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
  */
-/* line 135, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_normalize.scss */
+/* line 135, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_normalize.scss */
 b,
 strong {
   font-weight: inherit; }
@@ -149,7 +149,7 @@ strong {
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
-/* line 144, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_normalize.scss */
+/* line 144, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_normalize.scss */
 b,
 strong {
   font-weight: bolder; }
@@ -158,7 +158,7 @@ strong {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-/* line 154, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_normalize.scss */
+/* line 154, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_normalize.scss */
 code,
 kbd,
 samp {
@@ -170,14 +170,14 @@ samp {
 /**
  * Add the correct font style in Android 4.3-.
  */
-/* line 165, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_normalize.scss */
+/* line 165, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_normalize.scss */
 dfn {
   font-style: italic; }
 
 /**
  * Add the correct background and color in IE 9-.
  */
-/* line 173, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_normalize.scss */
+/* line 173, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_normalize.scss */
 mark {
   background-color: #ff0;
   color: #000; }
@@ -185,7 +185,7 @@ mark {
 /**
  * Add the correct font size in all browsers.
  */
-/* line 182, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_normalize.scss */
+/* line 182, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_normalize.scss */
 small {
   font-size: 80%; }
 
@@ -193,7 +193,7 @@ small {
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
-/* line 191, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_normalize.scss */
+/* line 191, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -201,11 +201,11 @@ sup {
   position: relative;
   vertical-align: baseline; }
 
-/* line 199, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_normalize.scss */
+/* line 199, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_normalize.scss */
 sub {
   bottom: -0.25em; }
 
-/* line 203, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_normalize.scss */
+/* line 203, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_normalize.scss */
 sup {
   top: -0.5em; }
 
@@ -214,7 +214,7 @@ sup {
 /**
  * Add the correct display in IE 9-.
  */
-/* line 214, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_normalize.scss */
+/* line 214, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_normalize.scss */
 audio,
 video {
   display: inline-block; }
@@ -222,7 +222,7 @@ video {
 /**
  * Add the correct display in iOS 4-7.
  */
-/* line 223, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_normalize.scss */
+/* line 223, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0; }
@@ -230,14 +230,14 @@ audio:not([controls]) {
 /**
  * Remove the border on images inside links in IE 10-.
  */
-/* line 232, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_normalize.scss */
+/* line 232, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_normalize.scss */
 img {
   border-style: none; }
 
 /**
  * Hide the overflow in IE.
  */
-/* line 240, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_normalize.scss */
+/* line 240, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_normalize.scss */
 svg:not(:root) {
   overflow: hidden; }
 
@@ -247,7 +247,7 @@ svg:not(:root) {
  * 1. Change the font styles in all browsers (opinionated).
  * 2. Remove the margin in Firefox and Safari.
  */
-/* line 252, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_normalize.scss */
+/* line 252, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_normalize.scss */
 button,
 input,
 optgroup,
@@ -266,7 +266,7 @@ textarea {
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
-/* line 268, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_normalize.scss */
+/* line 268, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_normalize.scss */
 button,
 input {
   /* 1 */
@@ -276,7 +276,7 @@ input {
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
  */
-/* line 278, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_normalize.scss */
+/* line 278, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_normalize.scss */
 button,
 select {
   /* 1 */
@@ -287,7 +287,7 @@ select {
  *    controls in Android 4.
  * 2. Correct the inability to style clickable types in iOS and Safari.
  */
-/* line 289, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_normalize.scss */
+/* line 289, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_normalize.scss */
 button,
 html [type="button"],
 [type="reset"],
@@ -298,7 +298,7 @@ html [type="button"],
 /**
  * Remove the inner border and padding in Firefox.
  */
-/* line 300, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_normalize.scss */
+/* line 300, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_normalize.scss */
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
@@ -309,7 +309,7 @@ button::-moz-focus-inner,
 /**
  * Restore the focus styles unset by the previous rule.
  */
-/* line 312, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_normalize.scss */
+/* line 312, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_normalize.scss */
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
@@ -319,7 +319,7 @@ button:-moz-focusring,
 /**
  * Change the border, margin, and padding in all browsers (opinionated).
  */
-/* line 323, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_normalize.scss */
+/* line 323, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -331,7 +331,7 @@ fieldset {
  * 3. Remove the padding so developers are not caught out when they zero out
  *    `fieldset` elements in all browsers.
  */
-/* line 336, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_normalize.scss */
+/* line 336, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_normalize.scss */
 legend {
   box-sizing: border-box;
   /* 1 */
@@ -350,7 +350,7 @@ legend {
  * 1. Add the correct display in IE 9-.
  * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
-/* line 350, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_normalize.scss */
+/* line 350, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_normalize.scss */
 progress {
   display: inline-block;
   /* 1 */
@@ -360,7 +360,7 @@ progress {
 /**
  * Remove the default vertical scrollbar in IE.
  */
-/* line 359, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_normalize.scss */
+/* line 359, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_normalize.scss */
 textarea {
   overflow: auto; }
 
@@ -368,7 +368,7 @@ textarea {
  * 1. Add the correct box sizing in IE 10-.
  * 2. Remove the padding in IE 10-.
  */
-/* line 368, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_normalize.scss */
+/* line 368, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_normalize.scss */
 [type="checkbox"],
 [type="radio"] {
   box-sizing: border-box;
@@ -379,7 +379,7 @@ textarea {
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-/* line 378, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_normalize.scss */
+/* line 378, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_normalize.scss */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto; }
@@ -388,7 +388,7 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-/* line 388, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_normalize.scss */
+/* line 388, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_normalize.scss */
 [type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -398,7 +398,7 @@ textarea {
 /**
  * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
  */
-/* line 397, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_normalize.scss */
+/* line 397, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_normalize.scss */
 [type="search"]::-webkit-search-cancel-button,
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
@@ -407,7 +407,7 @@ textarea {
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
  */
-/* line 407, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_normalize.scss */
+/* line 407, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_normalize.scss */
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   /* 1 */
@@ -420,7 +420,7 @@ textarea {
  * Add the correct display in IE 9-.
  * 1. Add the correct display in Edge, IE, and Firefox.
  */
-/* line 420, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_normalize.scss */
+/* line 420, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_normalize.scss */
 details,
 menu {
   display: block; }
@@ -428,7 +428,7 @@ menu {
 /*
  * Add the correct display in all browsers.
  */
-/* line 429, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_normalize.scss */
+/* line 429, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_normalize.scss */
 summary {
   display: list-item; }
 
@@ -437,14 +437,14 @@ summary {
 /**
  * Add the correct display in IE 9-.
  */
-/* line 440, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_normalize.scss */
+/* line 440, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_normalize.scss */
 canvas {
   display: inline-block; }
 
 /**
  * Add the correct display in IE.
  */
-/* line 448, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_normalize.scss */
+/* line 448, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_normalize.scss */
 template {
   display: none; }
 
@@ -453,11 +453,11 @@ template {
 /**
  * Add the correct display in IE 10-.
  */
-/* line 459, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_normalize.scss */
+/* line 459, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_normalize.scss */
 [hidden] {
   display: none; }
 
-/* line 1, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_base.scss */
+/* line 1, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_base.scss */
 html {
   box-sizing: border-box;
   -o-box-sizing: border-box;
@@ -467,50 +467,50 @@ html {
   -ms-overflow-style: scrollbar;
   -webkit-tap-highlight-color: transparent; }
 
-/* line 8, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_base.scss */
+/* line 8, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_base.scss */
 *, *:before, *:after {
   box-sizing: inherit; }
 
-/* line 11, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_base.scss */
+/* line 11, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_base.scss */
 body {
   font-size: 1.3rem;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
 
-/* line 16, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_base.scss */
+/* line 16, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_base.scss */
 a {
   color: #068AC9;
   text-decoration: none; }
-  /* line 20, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_base.scss */
+  /* line 20, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_base.scss */
   a:hover, a:focus {
     text-decoration: underline; }
 
-/* line 25, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_base.scss */
+/* line 25, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_base.scss */
 code, kbd, pre, samp {
   background-color: #eaeaea;
   padding: .1em .5em;
   border-radius: .1em; }
 
-/* line 31, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_base.scss */
+/* line 31, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_base.scss */
 blockquote {
   padding: 10px;
   margin: 0 0 20px;
   font-size: 1.6rem;
   border-left: 5px solid #eee; }
 
-/* line 38, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_base.scss */
+/* line 38, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_base.scss */
 textarea {
   resize: none; }
 
-/* line 5, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/_components/_grids.scss */
+/* line 5, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/_components/_grids.scss */
 .content__wrapper {
   *zoom: 1;
   margin: 0 auto;
   max-width: 92.308em; }
-  /* line 4, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/mixins/_clearfix.scss */
+  /* line 4, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/mixins/_clearfix.scss */
   .content__wrapper:before, .content__wrapper:after {
     display: table;
     content: ' '; }
-  /* line 10, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/mixins/_clearfix.scss */
+  /* line 10, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/mixins/_clearfix.scss */
   .content__wrapper:after {
     clear: both; }
 
@@ -556,11 +556,11 @@ top: 50%;
   .site__main {
     *zoom: 1;
     margin-top: 60px; }
-    /* line 4, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/mixins/_clearfix.scss */
+    /* line 4, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/mixins/_clearfix.scss */
     .site__main:before, .site__main:after {
       display: table;
       content: ' '; }
-    /* line 10, D:/Github/lightweight-admin-template/node_modules/awesome-bemcss/src/_scss/mixins/_clearfix.scss */
+    /* line 10, D:/Github/lightweight-admin-template/node_modules/bem-kit/src/_scss/mixins/_clearfix.scss */
     .site__main:after {
       clear: both; }
 

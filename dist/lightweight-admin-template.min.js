@@ -1,7 +1,7 @@
 /* 
  *   Name        : lightweight-admin-template 
  *   Version     : 0.0.1 
- *   Build Time  : 2016-12-19 12:11 
+ *   Build Time  : 2017-01-13 11:14 
  *   Author      : Irfan Maulana 
  *   Github Repo : https://github.com/mazipan/lightweight-admin-template 
  */
