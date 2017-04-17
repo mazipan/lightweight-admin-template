@@ -1,6 +1,14 @@
 # lightweight-admin-template
  Lightweight admin template for your web application
  
+ 
+[![License](https://img.shields.io/github/license/mazipan/lightweight-admin-template.svg?maxAge=3600)](https://github.com/mazipan/lightweight-admin-template) 
+[![Github Issue](https://img.shields.io/github/issues/mazipan/lightweight-admin-template.svg?maxAge=3600)](https://github.com/mazipan/lightweight-admin-template/issues) 
+[![GitHub Fork](https://img.shields.io/github/forks/mazipan/lightweight-admin-template.svg?maxAge=3600)](https://github.com/mazipan/lightweight-admin-template/network) 
+[![GitHub Star](https://img.shields.io/github/stars/mazipan/lightweight-admin-template.svg?maxAge=3600)](https://github.com/mazipan/lightweight-admin-template/stargazers) 
+[![GitHub Contributors](https://img.shields.io/github/contributors/mazipan/lightweight-admin-template.svg?maxAge=3600)](https://github.com/mazipan/lightweight-admin-template/network/members)
+
+ 
 ## Preview
 ![Lightweight admin template](https://raw.githubusercontent.com/mazipan/lightweight-admin-template/master/preview.PNG)
 
